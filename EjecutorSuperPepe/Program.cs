@@ -9,6 +9,7 @@ namespace EjecutorSuperPepe
         {
             Pepematic maquina = new Pepematic(args[0]);
             maquina.Ejecutar();
+            Console.ReadKey();
         }
     }
 }
